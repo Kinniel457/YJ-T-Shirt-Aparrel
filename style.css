@@ -890,3 +890,15 @@ display: block;
     color: white;
 }
 
+body {
+    background-color: #050505;
+    background-image: url(“images/B4416920-511A-4AEA-A98E-F35937A7C817.png”);
+    background-repeat: repeat;
+    background-size: 250px;
+    background-attachment: fixed;
+}
+
+body {
+    background-blend-mode: soft-light;
+}
+
