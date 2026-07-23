@@ -223,24 +223,63 @@ More designs coming soon!
 
 <section id="order">
 
-<h2>Order Request</h2>
+<h2>Request A Custom Order</h2>
+
+<p>
+Tell us what you need and we’ll help bring your idea to life.
+</p>
 
 <form action="https://formspree.io/f/xvzebdwb" method="POST">
-<input type="text" name="name" placeholder="Full Name">
 
-<input type="text" name="phone" placeholder="Phone Number">
+<input type="text" name="name" placeholder="Full Name" required>
 
-<input type="email" name="email" placeholder="Email">
+<input type="email" name="email" placeholder="Email Address" required>
 
-<input type="text" name="shirt" placeholder="Shirt Type">
+<input type="text" name="phone" placeholder="Phone Number" required>
 
-<input type="text" name="size" placeholder="Size">
 
-<input type="text" name="quantity" placeholder="Quantity">
+<select name="apparel">
 
-<textarea name="message" placeholder="Describe your design idea"></textarea>
+<option>Choose Apparel Type</option>
+<option>Custom T-Shirts</option>
+<option>Hoodies</option>
+<option>Team Apparel</option>
+<option>Church Apparel</option>
+<option>Business Apparel</option>
 
-<button type="submit">Send Request</button>
+</select>
+
+
+<select name="quantity">
+
+<option>Quantity</option>
+<option>1-10</option>
+<option>10-25</option>
+<option>25-50</option>
+<option>50+</option>
+
+</select>
+
+
+<select name="event">
+
+<option>What is this for?</option>
+<option>Birthday</option>
+<option>Business</option>
+<option>Church</option>
+<option>Sports Team</option>
+<option>Other</option>
+
+</select>
+
+
+<textarea name="details" placeholder="Describe your design idea"></textarea>
+
+
+<button type="submit">
+Send Request
+</button>
+
 
 </form>
 
