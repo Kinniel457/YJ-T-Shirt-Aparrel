@@ -465,3 +465,16 @@ color: red !important;
 background-color: red !important;
 color: white !important;
 }
+
+.card {
+background: #111 !important;
+border: 2px solid #d90404;
+}
+
+.card h3 {
+color: #ffffff !important;
+}
+
+.card p {
+color: #cccccc !important;
+}
