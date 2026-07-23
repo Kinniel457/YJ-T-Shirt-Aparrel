@@ -669,3 +669,13 @@ object-fit: cover;
 border-radius: 20px;
 border: 2px solid #d90404;
 }
+
+.card {
+transition: 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-10px);
+border-color: #ff0000;
+box-shadow: 0 15px 30px rgba(217,4,4,0.35);
+}
