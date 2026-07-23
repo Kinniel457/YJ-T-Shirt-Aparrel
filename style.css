@@ -355,13 +355,15 @@ width: 90%;
 text-align: center;
 }
 
-#faq {
-max-width: 900px;
-margin: 0 auto;
+.cards {
+display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 20px;
+flex-wrap: wrap;
 }
 
-#faq .card {
-margin: 20px auto;
-width: 90%;
+.card {
+width: 250px;
 text-align: center;
 }
