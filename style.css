@@ -1003,4 +1003,27 @@ footer h3 {
 
 }
 
+body {
+    background:
+    radial-gradient(circle at 20% 20%, rgba(217,4,4,0.18), transparent 25%),
+    radial-gradient(circle at 80% 80%, rgba(217,4,4,0.12), transparent 25%),
+    linear-gradient(135deg, #050505, #111, #000);
+    background-attachment: fixed;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+section::before {
+    content: “Y&J”;
+    position: absolute;
+    font-size: 180px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.02);
+    right: -30px;
+    top: 20px;
+    z-index: 0;
+}
 
