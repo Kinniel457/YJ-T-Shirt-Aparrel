@@ -382,3 +382,18 @@ transition: 0.3s;
 transform: translateY(-3px);
 }
 
+h1, h2, h3 {
+font-family: Arial, sans-serif;
+}
+
+h1 {
+font-size: 55px;
+}
+
+h2 {
+font-size: 35px;
+}
+
+section {
+padding: 60px 20px;
+}
