@@ -431,3 +431,24 @@ transition: 0.3s;
 nav a:hover {
 transform: translateY(-3px);
 }
+
+body {
+background: #0b0b0b;
+}
+
+h1, h2, h3 {
+color: white;
+}
+
+p {
+color: #cccccc;
+}
+
+.button {
+background: #d90404;
+color: white;
+}
+
+.button:hover {
+background: #ff1a1a;
+}
