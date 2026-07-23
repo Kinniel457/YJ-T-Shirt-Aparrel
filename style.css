@@ -566,4 +566,32 @@ color: white;
 cursor: pointer;
 }
 
+.hero {
+min-height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(
+rgba(0,0,0,0.75),
+rgba(0,0,0,0.95)
+);
+text-align: center;
+}
+
+.hero h1 {
+font-size: 55px;
+letter-spacing: 2px;
+}
+
+.hero h2 {
+color: #d90404;
+font-size: 28px;
+}
+
+.hero p {
+max-width: 650px;
+font-size: 18px;
+color: #cccccc;
+}
 
