@@ -229,7 +229,7 @@ More designs coming soon!
 Tell us what you need and we’ll help bring your idea to life.
 </p>
 
-<form action="https://formspree.io/f/xvzebdwb" method="POST">
+<form action="https://formspree.io/f/xvzebdwb" method="POST" enctype="multipart/form-data">
 
 <input type="text" name="name" placeholder="Full Name" required>
 
@@ -275,13 +275,31 @@ Tell us what you need and we’ll help bring your idea to life.
 
 <textarea name="details" placeholder="Describe your design idea"></textarea>
 
+ <select name="logo_option">
+
+<option>Do you need a logo?</option>
+<option>I already have a logo</option>
+<option>I need Y&J to create a logo</option>
+
+</select>
+
+
+<label>
+Upload your logo (optional):
+</label>
+
+<input
+type="file"
+name="logo_upload"
+accept="image/png, image/jpeg">
+
 
 <button type="submit">
 Send Request
 </button>
 
 
-</form>
+</form> 
 
 </section>
 
