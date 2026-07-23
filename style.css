@@ -1,24 +1,61 @@
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background: #111;
+background: #0f0f0f;
 color: white;
 text-align: center;
 }
 
-header {
-background: #c40000;
-padding: 40px 20px;
+.hero {
+background: linear-gradient(#000000, #333333);
+padding: 80px 20px;
 }
 
-h1 {
-font-size: 40px;
-margin-bottom: 10px;
+.hero h1 {
+font-size: 45px;
+margin-bottom: 15px;
+}
+
+.hero p {
+font-size: 20px;
+}
+
+.button {
+display: inline-block;
+margin-top: 25px;
+padding: 15px 30px;
+background: white;
+color: black;
+text-decoration: none;
+border-radius: 30px;
+font-weight: bold;
 }
 
 section {
-padding: 30px 15px;
+padding: 40px 20px;
 }
+
+h2 {
+font-size: 32px;
+}
+
+
+.cards {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+
+.card {
+background: #1c1c1c;
+padding: 25px;
+width: 250px;
+border-radius: 15px;
+border: 1px solid white;
+}
+
 
 .gallery {
 display: flex;
@@ -27,41 +64,56 @@ gap: 20px;
 flex-wrap: wrap;
 }
 
-.box {
-background: #222;
-border: 2px solid #c40000;
-border-radius: 10px;
+
+.shirt {
+background: white;
+color: black;
 width: 220px;
-height: 180px;
+height: 220px;
+border-radius: 15px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 
+
 form {
-max-width: 400px;
+max-width: 450px;
 margin: auto;
 display: flex;
 flex-direction: column;
-gap: 12px;
+gap: 15px;
 }
 
+
 input, textarea {
-padding: 12px;
-border-radius: 5px;
+padding: 15px;
+border-radius: 10px;
 border: none;
 font-size: 16px;
 }
 
+
 textarea {
-height: 100px;
+height: 120px;
 }
+
 
 button {
 padding: 15px;
-background: #c40000;
-color: white;
+background: white;
+color: black;
 border: none;
-border-radius: 5px;
+border-radius: 30px;
 font-size: 18px;
+font-weight: bold;
 }
+
+
+footer {
+background: black;
+padding: 20px;
+}
+
+
+
