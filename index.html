@@ -504,6 +504,32 @@ Custom apparel made for your events, teams, businesses, and more.
 
 </footer>
 
+ <div id="imagePopup" class="popup">
+<span id="closePopup">&times;</span>
+<img id="popupImage">
+</div>
+
+<script>
+const images = document.querySelectorAll(".gallery img");
+const popup = document.getElementById("imagePopup");
+const popupImage = document.getElementById("popupImage");
+const closePopup = document.getElementById("closePopup");
+
+images.forEach(image => {
+image.onclick = () => {
+popup.style.display = "flex";
+popupImage.src = image.src;
+}
+});
+
+closePopup.onclick = () => {
+popup.style.display = "none";
+};
+
+popup.onclick = () => {
+popup.style.display = "none";
+};
+</script>
 
 </body>
 </html>
