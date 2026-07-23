@@ -1049,7 +1049,7 @@ body::before {
 }
 
 .hero {
-  height: 90vh;
+  height: 70h;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1059,7 +1059,7 @@ body::before {
 }
 
 .hero h1 {
-  font-size: 120px;
+  font-size: 80px;
   letter-spacing: 15px;
   color: white;
   font-family: serif;
