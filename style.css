@@ -478,3 +478,30 @@ color: #ffffff !important;
 .card p {
 color: #cccccc !important;
 }
+
+nav {
+background: #000;
+border-bottom: 2px solid #d90404;
+}
+
+nav a {
+color: white !important;
+}
+
+nav a:hover {
+color: #d90404 !important;
+}
+
+
+footer {
+background: #000;
+border-top: 2px solid #d90404;
+}
+
+footer h3 {
+color: white !important;
+}
+
+footer p {
+color: #cccccc !important;
+}
