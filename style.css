@@ -613,3 +613,35 @@ background: #ff0000;
 box-shadow: 0 10px 25px rgba(217,4,4,0.7);
 }
 
+nav {
+position: sticky;
+top: 0;
+z-index: 1000;
+backdrop-filter: blur(10px);
+background: rgba(0,0,0,0.85);
+padding: 15px 30px;
+}
+
+nav a {
+position: relative;
+transition: 0.3s ease;
+}
+
+nav a:hover {
+color: #d90404 !important;
+}
+
+nav a::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -8px;
+width: 0%;
+height: 2px;
+background: #d90404;
+transition: 0.3s ease;
+}
+
+nav a:hover::after {
+width: 100%;
+}
