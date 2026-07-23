@@ -938,4 +938,33 @@ section {
 }
 
 
+footer {
+    background: #000;
+    border-top: 2px solid #d90404;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+footer p {
+    color: #aaa;
+    margin: 10px;
+}
+
+footer::before {
+    content: “Y&J”;
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgba(217,4,4,0.15);
+    letter-spacing: 10px;
+    margin-bottom: -50px;
+}
+
+
 
