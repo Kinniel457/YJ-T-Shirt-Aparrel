@@ -343,3 +343,14 @@ cursor: pointer;
 form button:hover {
 transform: scale(1.03);
 }
+
+#faq {
+max-width: 900px;
+margin: 0 auto;
+}
+
+#faq .card {
+margin: 20px auto;
+width: 90%;
+text-align: center;
+}
