@@ -505,3 +505,10 @@ color: white !important;
 footer p {
 color: #cccccc !important;
 }
+
+.logo {
+width: 180px;
+max-width: 80%;
+display: block;
+margin: 0 auto 20px;
+}
