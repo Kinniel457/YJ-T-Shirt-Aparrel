@@ -966,5 +966,41 @@ footer::before {
     margin-bottom: -50px;
 }
 
+@media (max-width: 600px) {
+
+.hero h1 {
+    font-size: 38px;
+}
+
+.hero h2 {
+    font-size: 22px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.button {
+    width: 85%;
+    margin: 8px auto;
+}
+
+.slider {
+    height: 220px;
+}
+
+.slider img {
+    height: 220px;
+}
+
+.gallery img {
+    height: 250px;
+}
+
+footer h3 {
+    font-size: 24px;
+}
+
+}
 
 
