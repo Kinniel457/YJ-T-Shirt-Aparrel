@@ -1061,7 +1061,7 @@ nav a {
 }
 
 nav a:hover {
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 body::before {
@@ -1070,7 +1070,7 @@ body::before {
   inset: 0;
   background-image: url(“yj-pattern.png”);
   background-repeat: repeat;
-  background-size: 120px;
+  background-size: 80px;
   opacity: 0.08;
   pointer-events: none;
   z-index: 0;
