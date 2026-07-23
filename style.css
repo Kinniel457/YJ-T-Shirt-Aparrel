@@ -115,5 +115,47 @@ background: black;
 padding: 20px;
 }
 
+nav {
+background: black;
+padding: 15px;
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
 
+nav a, .dropdown button {
+color: white;
+text-decoration: none;
+background: transparent;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background: white;
+min-width: 160px;
+z-index: 10;
+}
+
+.dropdown-content a {
+display: block;
+color: black;
+padding: 10px;
+}
+
+.dropdown-content a:hover {
+background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
 
