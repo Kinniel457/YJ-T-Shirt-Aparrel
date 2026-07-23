@@ -452,3 +452,16 @@ color: white;
 .button:hover {
 background: #ff1a1a;
 }
+
+body {
+background-color: black !important;
+}
+
+h1, h2, h3 {
+color: red !important;
+}
+
+.button {
+background-color: red !important;
+color: white !important;
+}
