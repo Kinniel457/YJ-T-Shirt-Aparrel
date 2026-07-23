@@ -1063,3 +1063,23 @@ nav a {
 nav a:hover {
   opacity: 0.7;
 }
+
+body::before {
+  content: “”;
+  position: fixed;
+  inset: 0;
+  background-image: url(“yj-pattern.png”);
+  background-repeat: repeat;
+  background-size: 120px;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+
+header,
+main,
+section,
+footer {
+  position: relative;
+  z-index: 1;
+}
