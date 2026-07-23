@@ -259,4 +259,17 @@ font-weight: bold;
 transform: scale(1.05);
 }
 
+footer {
+background: black;
+padding: 40px 20px;
+margin-top: 40px;
+}
+
+footer h3 {
+font-size: 28px;
+}
+
+footer p {
+color: #ddd;
+}
 
